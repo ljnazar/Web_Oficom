@@ -47,17 +47,20 @@ p{
 }
 
 .nav-link{
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em !important;
     font-weight: 800 !important;
     color: #252525 !important;
 }
 
+.nav-link:hover{
+    color: #3B3F8C !important; 
+}
+
+
 /* Style for header */
 
 header{
-    /*display: flex;
-    flex-direction: row;
-    justify-content: end;*/
     position: fixed;
     top: 0;
     z-index: 1;
@@ -68,7 +71,7 @@ header{
     box-shadow: 0 6px 6px rgb(50 50 93 / 40%), 0 1px 1px rgb(0 0 0 / 20%);
 }
 
-header img{
+.logo-img{
     width: 70px;
     height: 70px;
     position: absolute;
@@ -76,7 +79,7 @@ header img{
     left: 20px;
 }
 
-header h1{
+.logo-name{
     font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 20px;
@@ -84,24 +87,6 @@ header h1{
     font-size: 3rem;
     font-weight: 800;
     display: inline-block;
-}
-
-header nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 1.2rem;
-}
-
-header nav ul li a:hover{
-    color: #3B3F8C;
 }
 
 /* Style for home section */
@@ -141,11 +126,11 @@ header nav ul li a:hover{
 
 /* Style for empresa section */
 
-#empresa {
+#empresa{
     position: relative;
 }
 
-#empresa .target-empresa{
+.target-empresa{
     position: absolute;
     left: 0px;
     top: -100px;
@@ -254,6 +239,16 @@ header nav ul li a:hover{
 
 /* Style for productos section */
 
+#productos {
+    position: relative;
+}
+
+.target-productos{
+    position: absolute;
+    left: 0px;
+    top: -100px;
+}
+
 .container-products{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -313,11 +308,18 @@ header nav ul li a:hover{
 
 /* Style for servicios section */
 
-.servicios{
+#servicios{
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
+}
+
+.target-servicios{
+    position: absolute;
+    left: 0px;
+    top: -100px;
 }
 
 .servicios__text{
@@ -340,7 +342,8 @@ header nav ul li a:hover{
 
 /* Style for contacto section */
 
-.contacto{
+#contacto{
+    position: relative;
     height: 500px;
     display: grid;
     grid-template-rows: 85px 1fr 1fr 1fr;
@@ -350,6 +353,12 @@ header nav ul li a:hover{
     'map map map location'
     'map map map tel'
     'map map map mail';
+}
+
+.target-contacto{
+    position: absolute;
+    left: 0px;
+    top: -100px;
 }
 
 .title-location{
