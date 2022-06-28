@@ -82,10 +82,6 @@ header{
 /* Style for home section */
 
 .home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: url(../img/home.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -95,23 +91,36 @@ header{
     height: calc(100vh);
 }
 
-.home__title{
+.text-home{
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
-    margin-top: -120px;
-    padding-bottom: 50px;
+    width: 100%;
     text-align: center;
     color: white;
 }
 
-.home__text{
-    font-family: 'Rubik', sans-serif;
-    font-weight: 600;
+.text-title{
+    position: absolute;
+    top: 125px;
+    font-size: 2.5rem;
+}
+
+.text-libreria{
+    position: absolute;
+    top: 220px;
     font-size: 3rem;
-    margin: 15px;
-    text-align: center;
-    color: white;
+}
+
+.text-oficina{
+    position: absolute;
+    top: 300px;
+    font-size: 3rem;
+}
+
+.text-computacion{
+    position: absolute;
+    top: 380px;
+    font-size: 3rem;
 }
 
 /* Style for empresa section */
