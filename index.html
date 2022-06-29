@@ -13,6 +13,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Raleway:wght@600;800&family=Rubik&display=swap&family=Ubuntu&display=swap" rel="stylesheet">
         <!-- bootstrap -->
+        
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+        
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
@@ -71,248 +80,316 @@
                 <h4 class="title-secondary margin-text">Lo que opinan nuestros clientes</h4>
                 <!-- reviews google mybusiness -->
                 <!-- Carousel -->
-                <div class="container-reviews">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="carouselControls" class="carousel carousel-dark slide" data-ride="carousel">
 
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a/AATXAJySslX2nbIoFcL_gbsEWNbmSlZWZfX5vVTrvXq-=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
-                        <p class="card-name">Alejandra Cragnolini</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelentes productos. Calida y esmerada atención!!! Súper recomendable!!!💖</p>
-                        <a class="card-link" href="https://goo.gl/maps/DXvuqdrhWixPf3SZA" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <div class="container d-flex justify-content-evenly">
+                                            <div class="row">
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a/AATXAJySslX2nbIoFcL_gbsEWNbmSlZWZfX5vVTrvXq-=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Alejandra Cragnolini</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelentes productos. Calida y esmerada atención!!! Súper recomendable!!!💖</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/DXvuqdrhWixPf3SZA" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14GjR7O4cLXzTejRsOmxsrTeFG8uV0bXEw8ozvJsBG6E=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Aldana Barrera</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención y magnífico equipo de trabajo. Super recomendable... productos de calidad..</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/W1tbD3MoDaBojt976" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a/AATXAJxlpK-cgEw5NVS46m4lb_Q_G3-prU2Pes33F9Ug=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Maria Laura Otta</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Un clásico de la ciudad.. pensar en artículos de librería y tecnología es pensar en Oficom...</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/2SgaCxXrPSrLinHb7" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a/AATXAJwzF5G2jOhwi8EKMwVxKlTyZzMC1WnGuIs66ALn=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Claudio J. Frencia</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención de parte de todas las empleadas muy amables gran variedad <span class="read-more">read more</span>los productos sobre todo las mochilas muy buenas y buen precio</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/F2ZbwyG5BbyPfRuZ9" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="carousel-item">
+                                        <div class="container d-flex justify-content-evenly">
+                                            <div class="row">
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14Gg9aXAv1vzp7B7kuba3EtDd3vXUpu9KKEHf7zhR2w=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Hernán D. Mangold</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención al público, productos de calidad a buen precio, recomendable.</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/aE3tzTGe4875btJcA" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14GiTLASbqHoL8byihUdWmaB9VzGXyie9eE41lo-GpA=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Mariloy Zürcher</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención.  Gran variedad de artículos de librería,  informática y <span class="read-more">read more</span>novedades. Podes encontrar desde los lápices para el colegio hasta la bandera municipal de Río Tercero. Muy buenos precios. Y lo que no encontras... Se lo pedis y te lo consiguen....!</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/x4tFS2V2WvPStn1m6" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a/AATXAJyWwBkJHSbGxnclaPqYmIa_xgaUnYTz0Oc6qXuX1Ew=w45-h45-p-c0x00000000-rp-mo-ba6-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Alberto More</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Es un lugar de excelencia en atención y preocupación por solucionar problemas, <span class="read-more">read more</span>muy buen servicio, muy buenos productos , hace muchos años que esta, eso dice mucho, un lugar tradicional de Rio3 Tercero en su rubro. Muy recomendable.  Nunca he tenido problemas en 20 años</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/Byy17dborbP8a5Wg6" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14GiWWac9_YKYzbCkD5e15L_bihkEWhxKEpxLec9Emg=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Roberto Acuña</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención, gran variedad de artículos de oficina, muy buenos precios</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/LJZxgfPbYBGgEwSf6" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+ 
+                                    <div class="carousel-item">
+                                        <div class="container d-flex justify-content-evenly">
+                                            <div class="row">
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a/AATXAJz2D6tqXbx029swl0nQOCh1tyVsuZ9lOrEtZO82=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Sergio Torres</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Muy buena atención de sus empleados y como también de su  dueño  muchas gracias.</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/fEMd78VaiVnJTbZq6" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ggc90nRcTC9d44OFYGacOb58yuiFsRB2RMWa6vb8Q=w45-h45-p-c0x00000000-rp-mo-ba5-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Juan Monteros</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">La mejor libreria de la ciudad</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/rUE1w5qLqduXUX1i8" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ggfc02pXgVKheymg5SYXJGzH81904zTgEt_fV45uaA=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Romina H</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente atención y precios!!! Totalmente recomendable para docentes, estudiantes y <span class="read-more">read more</span>a todo el q le guste leer!!!</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/jCh4NgrGqSAjLj8P7" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div class="card-reviews selector-for-some-widget">
+                                                        <img src="https://lh3.googleusercontent.com/a-/AOh14GhvQYmJk7p3Z0H_KS0mj3Agr17ceBoz7eAAEN278Q=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
+                                                        <p class="card-name">Alejandra Moreno</p>
+                                                        <span class="card-stars"> 
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                            <img alt="estrellas" class="star-resize" src="img/star.png">
+                                                        </span>
+                                                        <p class="card-comment">Excelente precio además de la atención</p>
+                                                        <a class="card-link" href="https://goo.gl/maps/cVEibJ5BUishQuYt5" target="_blank">
+                                                            <img src="img/google_icon.svg" alt="logo-google">
+                                                            <div class="card-link-text">
+                                                                <p class="text-link-review">Posted on</p> 
+                                                                <p class="text-link-review">Google</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                        
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                                    
+                            </div> 
+                        </div> 
                     </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14GjR7O4cLXzTejRsOmxsrTeFG8uV0bXEw8ozvJsBG6E=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
-                        <p class="card-name">Aldana Barrera</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención y magnífico equipo de trabajo. Super recomendable... productos de calidad..</p>
-                        <a class="card-link" href="https://goo.gl/maps/W1tbD3MoDaBojt976" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a/AATXAJxlpK-cgEw5NVS46m4lb_Q_G3-prU2Pes33F9Ug=w45-h45-p-c0x00000000-rp-mo-br100" class="card-image" alt="foto">
-                        <p class="card-name">Maria Laura Otta</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Un clásico de la ciudad.. pensar en artículos de librería y tecnología es pensar en Oficom...</p>
-                        <a class="card-link" href="https://goo.gl/maps/2SgaCxXrPSrLinHb7" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a/AATXAJwzF5G2jOhwi8EKMwVxKlTyZzMC1WnGuIs66ALn=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
-                        <p class="card-name">Claudio J. Frencia</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención de parte de todas las empleadas muy amables gran variedad <span class="read-more">read more</span>los productos sobre todo las mochilas muy buenas y buen precio</p>
-                        <a class="card-link" href="https://goo.gl/maps/F2ZbwyG5BbyPfRuZ9" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14Gg9aXAv1vzp7B7kuba3EtDd3vXUpu9KKEHf7zhR2w=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
-                        <p class="card-name">Hernán D. Mangold</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención al público, productos de calidad a buen precio, recomendable.</p>
-                        <a class="card-link" href="https://goo.gl/maps/aE3tzTGe4875btJcA" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14GiTLASbqHoL8byihUdWmaB9VzGXyie9eE41lo-GpA=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
-                        <p class="card-name">Mariloy Zürcher</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención.  Gran variedad de artículos de librería,  informática y <span class="read-more">read more</span>novedades. Podes encontrar desde los lápices para el colegio hasta la bandera municipal de Río Tercero. Muy buenos precios. Y lo que no encontras... Se lo pedis y te lo consiguen....!</p>
-                        <a class="card-link" href="https://goo.gl/maps/x4tFS2V2WvPStn1m6" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a/AATXAJyWwBkJHSbGxnclaPqYmIa_xgaUnYTz0Oc6qXuX1Ew=w45-h45-p-c0x00000000-rp-mo-ba6-br100" class="card-image" alt="foto">
-                        <p class="card-name">Alberto More</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Es un lugar de excelencia en atención y preocupación por solucionar problemas, <span class="read-more">read more</span>muy buen servicio, muy buenos productos , hace muchos años que esta, eso dice mucho, un lugar tradicional de Rio3 Tercero en su rubro. Muy recomendable.  Nunca he tenido problemas en 20 años</p>
-                        <a class="card-link" href="https://goo.gl/maps/Byy17dborbP8a5Wg6" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14GiWWac9_YKYzbCkD5e15L_bihkEWhxKEpxLec9Emg=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
-                        <p class="card-name">Roberto Acuña</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención, gran variedad de artículos de oficina, muy buenos precios</p>
-                        <a class="card-link" href="https://goo.gl/maps/LJZxgfPbYBGgEwSf6" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a/AATXAJz2D6tqXbx029swl0nQOCh1tyVsuZ9lOrEtZO82=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
-                        <p class="card-name">Sergio Torres</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Muy buena atención de sus empleados y como también de su  dueño  muchas gracias.</p>
-                        <a class="card-link" href="https://goo.gl/maps/fEMd78VaiVnJTbZq6" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ggc90nRcTC9d44OFYGacOb58yuiFsRB2RMWa6vb8Q=w45-h45-p-c0x00000000-rp-mo-ba5-br100" class="card-image" alt="foto">
-                        <p class="card-name">Juan Monteros</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">La mejor libreria de la ciudad</p>
-                        <a class="card-link" href="https://goo.gl/maps/rUE1w5qLqduXUX1i8" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14Ggfc02pXgVKheymg5SYXJGzH81904zTgEt_fV45uaA=w45-h45-p-c0x00000000-rp-mo-ba4-br100" class="card-image" alt="foto">
-                        <p class="card-name">Romina H</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente atención y precios!!! Totalmente recomendable para docentes, estudiantes y <span class="read-more">read more</span>a todo el q le guste leer!!!</p>
-                        <a class="card-link" href="https://goo.gl/maps/jCh4NgrGqSAjLj8P7" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card-reviews selector-for-some-widget">
-                        <img src="https://lh3.googleusercontent.com/a-/AOh14GhvQYmJk7p3Z0H_KS0mj3Agr17ceBoz7eAAEN278Q=w45-h45-p-c0x00000000-rp-mo-ba3-br100" class="card-image" alt="foto">
-                        <p class="card-name">Alejandra Moreno</p>
-                        <span class="card-stars"> 
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                            <img alt="estrellas" class="star-resize" src="img/star.png">
-                        </span>
-                        <p class="card-comment">Excelente precio además de la atención</p>
-                        <a class="card-link" href="https://goo.gl/maps/cVEibJ5BUishQuYt5" target="_blank">
-                            <img src="img/google_icon.svg" alt="logo-google">
-                            <div class="card-link-text">
-                                <p class="text-link-review">Posted on</p> 
-                                <p class="text-link-review">Google</p>
-                            </div>
-                        </a>
-                    </div>
-
                 </div>
                 <!-- end carousel -->
             </section>

@@ -160,21 +160,15 @@ header{
     margin-top: 20px;
 }
 
-.container-reviews{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
 .card-reviews{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
     width: 150px;
     height: 238px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     padding: 20px;
     border-radius: 15px;
     border: 1px solid #D6DAE4;
