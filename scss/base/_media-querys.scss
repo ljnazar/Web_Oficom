@@ -1,0 +1,56 @@
+/* Media Querys */
+
+/* Tablet */
+@media only screen and (min-width: 830px) and (max-width: 960px){
+    .home__title{
+        font-size: 2rem;
+    }
+    .home__text{
+        font-size: 2.5rem;
+    }
+    .business-info{
+        font-size: 1.3rem;
+    }
+}
+
+/* Mini Tablet */
+@media only screen and (min-width: 480px) and (max-width: 830px){
+    .home__title{
+        font-size: 2rem;
+    }
+    .home__text{
+        font-size: 2.5rem;
+    }
+    .business-info{
+        font-size: 1.3rem;
+    }
+}
+
+/* Movil */
+@media only screen and (max-width: 480px) {
+    .home__title{
+        font-size: 1.5rem;
+    }
+    .home__text{
+        font-size: 2rem;
+    }
+    .business-info{
+        font-size: 1rem;
+    }
+    .contacto{
+        height: 600px;
+        display: grid;
+        grid-template-rows: 85px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'title-location title-location title-location'
+        'map map map'
+        'map map map'
+        'location location location'
+        'tel tel tel'
+        'mail mail mail';
+    }
+    .text-copyright{
+        font-size: 0.6rem;
+    }
+}

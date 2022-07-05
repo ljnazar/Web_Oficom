@@ -1,0 +1,65 @@
+/* Style for productos section */
+
+#productos {
+    position: relative;
+}
+
+.target-productos{
+    position: absolute;
+    left: 0px;
+    top: -100px;
+}
+
+.container-products{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    height: 800px;
+}
+
+%grid-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid black 1px;
+}
+
+.grid-img-1{
+    background-image: url(../img/oficom_1.png);
+    @extend %grid-images;
+}
+
+.grid-img-2{
+    background-image: url(../img/oficom_2.png);
+    @extend %grid-images;
+}
+
+.grid-img-3{
+    background-image: url(../img/oficom_3.png);
+    @extend %grid-images;
+}
+
+.grid-img-4{
+    background-image: url(../img/oficom_4.png);
+    @extend %grid-images;
+}
+
+.container-brands{
+    background-color: $color-cyan;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.minimum-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 6px 0;
+    img{
+        padding: 10px;
+        border: solid 1px black;
+    }
+}
