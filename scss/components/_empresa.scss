@@ -1,0 +1,112 @@
+/* Style for empresa section */
+
+#empresa{
+    position: relative;
+}
+
+.target-empresa{
+    position: absolute;
+    left: 0px;
+    top: -100px;
+}
+
+.container-business{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    height: 300px;
+    border: solid $color-cyan 6px;
+}
+
+.business-info{
+    font-family: $font-info;
+    color: #eee;
+    margin: auto;
+    width: 70%;
+    font-size: 1.6rem;
+}
+
+.title-secondary{
+    font-family: $font-main;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.margin-text{
+    margin-top: 20px;
+}
+
+.selector-for-some-widget{
+    box-sizing: content-box;
+}
+
+.card-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 238px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #D6DAE4;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+}
+
+.card-image{
+    width: 40px;
+    height: 40px;
+}
+
+.card-name{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.star-resize{
+    margin-top: -30px;
+    margin-right: -0.2em;
+    height: 14px;
+}
+
+.card-comment{
+    margin-top: -8px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    max-height: 82px;
+    line-height: 1.1em;
+    font-size: 0.9em;
+}
+
+.read-more{
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(0, 10, 18, 0.5);
+}
+
+.card-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: -60px;
+    text-decoration: none;
+}
+
+.card-link-text{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.text-link-review{
+    font-size: 10px;
+    line-height: 0;
+    color: rgba(0, 10, 18, 0.5);
+}

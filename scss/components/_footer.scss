@@ -1,0 +1,43 @@
+/* Style for footer */
+
+.footer{
+    background: #252525;
+}
+
+.container-footer{
+    height: 90%;
+}
+
+.text-footer{
+    font-family: $font-main;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.min-margin-text{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    border: solid $color-gray 1px;
+}
+
+.text-copyright{
+    font-family: $font-footer;
+    color: $color-gray;
+    margin-bottom: 0;
+}

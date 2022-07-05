@@ -1,0 +1,43 @@
+/* Style for home section */
+
+.home{
+    background-image: url(../img/home.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: -moz-calc(100vh);
+    height: -webkit-calc(100vh);
+    height: calc(100vh);
+}
+
+.text-home{
+    font-family: $font-main;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text-title{
+    position: absolute;
+    top: 125px;
+    font-size: 2.5rem;
+}
+
+.text-libreria{
+    position: absolute;
+    top: 220px;
+    font-size: 3rem;
+}
+
+.text-oficina{
+    position: absolute;
+    top: 300px;
+    font-size: 3rem;
+}
+
+.text-computacion{
+    position: absolute;
+    top: 380px;
+    font-size: 3rem;
+}
