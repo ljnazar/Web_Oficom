@@ -1,14 +1,28 @@
 /* Animations */
 
+@mixin prefix-animation($property) {
+  -webkit-animation: $property;
+  -o-animation: $property;
+  -moz-animation: $property;
+  animation: $property;
+}
+
 .rotate{
-    animation: rotation 16s infinite linear;
+  @include prefix-animation(rotation 16s infinite linear);
+}
+
+@mixin prefix-transform($property) {
+  -webkit-transform: $property;
+  -o-transform: $property;
+  -moz-transform: $property;
+  transform: $property;
 }
 
 @keyframes rotation{
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+  from {
+    @include prefix-transform(rotate(0deg));
+  }
+  to {
+    @include prefix-transform(rotate(359deg));
+  }
 }
