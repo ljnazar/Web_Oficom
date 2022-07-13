@@ -221,37 +221,6 @@ header {
   top: -100px;
 }
 
-.container-products {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 10px;
-  height: 800px;
-}
-
-.grid-img-4, .grid-img-3, .grid-img-2, .grid-img-1 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid black 1px;
-}
-
-.grid-img-1 {
-  background-image: url(../img/oficom_1.png);
-}
-
-.grid-img-2 {
-  background-image: url(../img/oficom_2.png);
-}
-
-.grid-img-3 {
-  background-image: url(../img/oficom_3.png);
-}
-
-.grid-img-4 {
-  background-image: url(../img/oficom_4.png);
-}
-
 .container-brands {
   background-color: #05C7F2;
   height: 120px;
@@ -271,31 +240,24 @@ header {
   border: solid 1px black;
 }
 
-/* Style for servicios section */
-#servicios {
+/* Style for galeria section */
+#galeria {
+  margin: 30px 0;
   position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.target-servicios {
+.target-galeria {
   position: absolute;
   left: 0px;
   top: -100px;
 }
 
-.servicios__text {
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  font-size: 2rem;
-  overflow: hidden;
-}
-
-.servicios__image {
-  background-image: url(../img/Tecnico.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: -moz-calc(100vh - 100px);
-  height: -webkit-calc(100vh - 100px);
-  height: calc(100vh - 100px);
+.gallery-expand {
+  width: 100%;
 }
 
 /* Style for contacto section */
