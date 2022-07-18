@@ -223,7 +223,7 @@ header {
 
 .container-brands {
   background-color: #05C7F2;
-  height: 120px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,8 +236,8 @@ header {
   margin: 6px 0;
 }
 .minimum-size img {
-  padding: 10px;
-  border: solid 1px black;
+  padding: 15px;
+  width: 100px;
 }
 
 /* Style for galeria section */
@@ -337,8 +337,8 @@ header {
   font-family: "Rubik", sans-serif;
   text-align: center;
   color: white;
-  margin-bottom: 0.8rem;
-  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
 }
 
 .min-margin-text {
