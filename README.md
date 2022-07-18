@@ -1,6 +1,6 @@
 # Web_Oficom  
 Sitio Web de la empresa Oficom  
-Tecnologías utilizadas:  
+Tecnologías utilizadas:    
 - Flexbox
 - BoxModeling
 - Bootstrap
