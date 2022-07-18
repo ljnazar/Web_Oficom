@@ -260,6 +260,14 @@ header {
   width: 100%;
 }
 
+.gallery-mini {
+  border-radius: 10px;
+}
+
+.del-border {
+  border: none;
+}
+
 /* Style for contacto section */
 #contacto {
   position: relative;
@@ -383,7 +391,7 @@ header {
 }
 /* Media Querys */
 /* Tablet */
-@media only screen and (min-width: 830px) and (max-width: 960px) {
+@media only screen and (min-width: 830px) and (max-width: 992px) {
   .home__title {
     font-size: 2rem;
   }
@@ -392,6 +400,9 @@ header {
   }
   .business-info {
     font-size: 1.3rem;
+  }
+  .row-edit {
+    display: block !important;
   }
 }
 /* Mini Tablet */
@@ -404,6 +415,9 @@ header {
   }
   .business-info {
     font-size: 1.3rem;
+  }
+  .row-edit {
+    display: block !important;
   }
 }
 /* Movil */
@@ -426,6 +440,9 @@ header {
   }
   .text-copyright {
     font-size: 0.6rem;
+  }
+  .row-edit {
+    display: block !important;
   }
 }
 
