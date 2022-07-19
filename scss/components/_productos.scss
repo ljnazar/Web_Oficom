@@ -12,7 +12,7 @@
 
 .container-brands{
     background-color: $color-cyan;
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,14 @@
     justify-content: space-evenly;
     margin: 6px 0;
     img{
-        padding: 15px;
-        width: 100px;
+        width: 120px;
     }
+}
+
+.resize-up{
+    width: 160px !important;
+}
+
+.resize-down{
+    width: 85px !important;
 }
