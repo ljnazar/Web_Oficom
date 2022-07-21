@@ -5,12 +5,13 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: -moz-calc(100vh);
-    height: -webkit-calc(100vh);
-    height: calc(100vh);
+    height: -moz-calc(100vh + 80px);
+    height: -webkit-calc(100vh + 80px);
+    height: calc(100vh + 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -80px;
 }
 
 .text-home{
