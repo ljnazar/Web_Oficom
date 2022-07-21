@@ -8,6 +8,9 @@
     height: -moz-calc(100vh);
     height: -webkit-calc(100vh);
     height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text-home{
@@ -19,25 +22,18 @@
 }
 
 .text-title{
-    position: absolute;
-    top: 125px;
+    margin-bottom: 30px;
     font-size: 2.5rem;
 }
 
 .text-libreria{
-    position: absolute;
-    top: 220px;
     font-size: 3rem;
 }
 
 .text-oficina{
-    position: absolute;
-    top: 300px;
     font-size: 3rem;
 }
 
 .text-computacion{
-    position: absolute;
-    top: 380px;
     font-size: 3rem;
 }

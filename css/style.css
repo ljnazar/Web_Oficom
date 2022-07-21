@@ -8,7 +8,7 @@
 /* reset default styles bootstrap */
 .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   background-color: white;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .navbar-toggler {
@@ -31,24 +31,24 @@ header {
   top: 0;
   z-index: 2;
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: white;
   -webkit-box-shadow: 0 6px 6px rgba(50, 50, 93, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 6px 6px rgba(50, 50, 93, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .logo-img {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   position: absolute;
-  top: 14px;
+  top: 12px;
   left: 20px;
 }
 
 .logo-name {
   font-family: "Raleway", sans-serif;
   position: absolute;
-  top: 20px;
+  top: 16px;
   left: 110px;
   font-size: 3rem;
   font-weight: 800;
@@ -64,6 +64,9 @@ header {
   height: -moz-calc(100vh);
   height: -webkit-calc(100vh);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text-home {
@@ -75,26 +78,19 @@ header {
 }
 
 .text-title {
-  position: absolute;
-  top: 125px;
+  margin-bottom: 30px;
   font-size: 2.5rem;
 }
 
 .text-libreria {
-  position: absolute;
-  top: 220px;
   font-size: 3rem;
 }
 
 .text-oficina {
-  position: absolute;
-  top: 300px;
   font-size: 3rem;
 }
 
 .text-computacion {
-  position: absolute;
-  top: 380px;
   font-size: 3rem;
 }
 
@@ -106,7 +102,7 @@ header {
 .target-empresa {
   position: absolute;
   left: 0px;
-  top: -100px;
+  top: -90px;
 }
 
 .container-business {
@@ -148,12 +144,12 @@ header {
   align-items: center;
   justify-content: space-evenly;
   width: 150px;
-  height: 238px;
+  height: 242px;
   margin-top: 20px;
   margin-bottom: 40px;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 20px;
+  padding: 18px;
   border-radius: 15px;
   border: 1px solid #D6DAE4;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -190,6 +186,7 @@ header {
   cursor: pointer;
   font-size: 14px;
   color: rgba(0, 10, 18, 0.5);
+  margin-top: 2px;
 }
 
 .card-link {
@@ -218,12 +215,12 @@ header {
 .target-productos {
   position: absolute;
   left: 0px;
-  top: -100px;
+  top: -90px;
 }
 
 .container-brands {
   background-color: #05C7F2;
-  height: 180px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,7 +231,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 6px 0;
+  margin: 8px 0;
 }
 .minimum-size img {
   width: 120px;
@@ -245,7 +242,7 @@ header {
 }
 
 .resize-down {
-  width: 85px !important;
+  width: 70px !important;
 }
 
 /* Style for galeria section */
@@ -261,7 +258,7 @@ header {
 .target-galeria {
   position: absolute;
   left: 0px;
-  top: -100px;
+  top: -90px;
 }
 
 .gallery-expand {
@@ -289,7 +286,7 @@ header {
 .target-contacto {
   position: absolute;
   left: 0px;
-  top: -100px;
+  top: -90px;
 }
 
 .title-location {
@@ -412,11 +409,14 @@ header {
   .row-edit {
     display: block !important;
   }
+  .carousel-control-next, .carousel-control-prev {
+    width: 50% !important;
+  }
 }
 /* Mini Tablet */
 @media only screen and (min-width: 480px) and (max-width: 830px) {
   .home__title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .home__text {
     font-size: 2.5rem;
@@ -426,6 +426,9 @@ header {
   }
   .row-edit {
     display: block !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 30% !important;
   }
 }
 /* Movil */
@@ -451,6 +454,9 @@ header {
   }
   .row-edit {
     display: block !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 10% !important;
   }
 }
 

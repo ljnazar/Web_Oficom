@@ -14,12 +14,15 @@
     .row-edit{
         display: block !important;
     }
+    .carousel-control-next, .carousel-control-prev{
+        width: 50% !important;
+    }
 }
 
 /* Mini Tablet */
 @media only screen and (min-width: 480px) and (max-width: 830px){
     .home__title{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .home__text{
         font-size: 2.5rem;
@@ -29,6 +32,9 @@
     }
     .row-edit{
         display: block !important;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 30% !important;
     }
 }
 
@@ -61,5 +67,8 @@
     }
     .row-edit{
         display: block !important;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 10% !important;
     }
 }
