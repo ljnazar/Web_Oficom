@@ -9,4 +9,5 @@ Tecnologías utilizadas:
 - SASS
 - Grid
 - SEO
+- Animaciones
 - Media Querys
