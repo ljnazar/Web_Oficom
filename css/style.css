@@ -210,6 +210,10 @@ header {
   font-size: 14px;
   color: rgba(0, 10, 18, 0.6);
   margin-top: 2px;
+  text-decoration: none;
+}
+.read-more:hover {
+  color: rgba(0, 10, 18, 0.6);
 }
 
 .card-link {
