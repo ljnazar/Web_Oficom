@@ -8,6 +8,7 @@
     position: absolute;
     left: 0px;
     top: -90px;
+    font-size: 0;
 }
 
 .container-business{
@@ -15,7 +16,7 @@
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.842);
-    height: 300px;
+    height: 260px;
     border: solid $color-cyan 6px;
 }
 
@@ -90,7 +91,7 @@
     display: block;
     cursor: pointer;
     font-size: 14px;
-    color: rgba(0, 10, 18, 0.5);
+    color: rgba(0, 10, 18, 0.6);
     margin-top: 2px;
 }
 

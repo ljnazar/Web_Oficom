@@ -23,6 +23,7 @@
 }
 .nav-link:hover {
   color: #3B3F8C !important;
+  text-shadow: 0 0 1px #3B3F8C;
 }
 
 /* Style for header */
@@ -61,13 +62,13 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: -moz-calc(100vh + 80px);
-  height: -webkit-calc(100vh + 80px);
-  height: calc(100vh + 80px);
+  height: -moz-calc(100vh + 140px);
+  height: -webkit-calc(100vh + 140px);
+  height: calc(100vh + 140px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -80px;
+  margin-top: -140px;
 }
 
 .text-home {
@@ -76,23 +77,43 @@ header {
   width: 100%;
   text-align: center;
   color: white;
+  z-index: 0;
 }
 
 .text-title {
-  margin-bottom: 30px;
+  position: fixed;
+  top: 145px;
   font-size: 2.5rem;
+  /* Keyframes animate.css */
+  animation: fadeInDownBig;
+  animation-duration: 0.8s;
 }
 
 .text-libreria {
+  position: fixed;
+  top: 215px;
   font-size: 3rem;
+  /* Keyframes animate.css */
+  animation: fadeInDownBig;
+  animation-duration: 1.8s;
 }
 
 .text-oficina {
+  position: fixed;
+  top: 285px;
   font-size: 3rem;
+  /* Keyframes animate.css */
+  animation: fadeInDownBig;
+  animation-duration: 2.6s;
 }
 
 .text-computacion {
+  position: fixed;
+  top: 355px;
   font-size: 3rem;
+  /* Keyframes animate.css */
+  animation: fadeInDownBig;
+  animation-duration: 3.4s;
 }
 
 /* Style for empresa section */
@@ -104,6 +125,7 @@ header {
   position: absolute;
   left: 0px;
   top: -90px;
+  font-size: 0;
 }
 
 .container-business {
@@ -111,7 +133,7 @@ header {
   align-items: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.842);
-  height: 300px;
+  height: 260px;
   border: solid #05C7F2 6px;
 }
 
@@ -186,7 +208,7 @@ header {
   display: block;
   cursor: pointer;
   font-size: 14px;
-  color: rgba(0, 10, 18, 0.5);
+  color: rgba(0, 10, 18, 0.6);
   margin-top: 2px;
 }
 
@@ -217,6 +239,7 @@ header {
   position: absolute;
   left: 0px;
   top: -90px;
+  font-size: 0;
 }
 
 .container-images {
@@ -227,6 +250,10 @@ header {
 
 .adaptative-width {
   width: 25%;
+}
+
+.title-brands {
+  border: solid 2px black;
 }
 
 .container-brands {
@@ -270,6 +297,7 @@ header {
   position: absolute;
   left: 0px;
   top: -90px;
+  font-size: 0;
 }
 
 .gallery-expand {
@@ -278,30 +306,31 @@ header {
 
 .gallery-mini {
   border-radius: 10px;
+  transition: all 0.3s;
+}
+.gallery-mini:hover {
+  transform: scale(1.04);
 }
 
 .del-border {
   border: none;
+  border-radius: 10px;
 }
 
 /* Style for contacto section */
 #contacto {
   position: relative;
-  height: 500px;
-  display: grid;
-  grid-template-rows: 85px 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "title-location title-location title-location title-location" "map map map location" "map map map tel" "map map map mail";
+  height: 387px;
 }
 
 .target-contacto {
   position: absolute;
   left: 0px;
   top: -90px;
+  font-size: 0;
 }
 
 .title-location {
-  grid-area: title-location;
   padding: 30px;
   border: solid 2px black;
   font-family: "Rubik", sans-serif;
@@ -312,36 +341,13 @@ header {
 }
 
 .map {
-  grid-area: map;
-  height: 415px;
-}
-
-.location {
-  grid-area: location;
-  text-align: center;
-  align-self: end;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.tel {
-  grid-area: tel;
-  text-align: center;
-  align-self: center;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
-}
-
-.mail {
-  grid-area: mail;
-  text-align: center;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
+  width: 100%;
+  height: 300px;
 }
 
 /* Style for footer */
 .footer {
+  position: relative;
   background: #252525;
 }
 
@@ -408,10 +414,31 @@ header {
 /* Media Querys */
 /* Tablet */
 @media only screen and (min-width: 830px) and (max-width: 992px) {
-  .home__title {
+  .logo-img {
+    width: 60px;
+    height: 60px;
+    top: 15px;
+    left: 16px;
+  }
+  .logo-name {
+    font-size: 2.8rem;
+    top: 19px;
+    left: 90px;
+  }
+  .text-title {
+    top: 130px;
     font-size: 2rem;
   }
-  .home__text {
+  .text-libreria {
+    top: 200px;
+    font-size: 2.5rem;
+  }
+  .text-oficina, .text-computacion {
+    top: 270px;
+    font-size: 2.5rem;
+  }
+  .text-computacion {
+    top: 340px;
     font-size: 2.5rem;
   }
   .business-info {
@@ -426,14 +453,38 @@ header {
 }
 /* Mini Tablet */
 @media only screen and (min-width: 480px) and (max-width: 830px) {
-  .home__title {
-    font-size: 1rem;
+  .logo-img {
+    width: 60px;
+    height: 60px;
+    top: 15px;
+    left: 16px;
   }
-  .home__text {
+  .logo-name {
+    font-size: 2.8rem;
+    top: 19px;
+    left: 90px;
+  }
+  .text-title {
+    top: 130px;
+    font-size: 2rem;
+  }
+  .text-libreria {
+    top: 200px;
+    font-size: 2.5rem;
+  }
+  .text-oficina, .text-computacion {
+    top: 270px;
+    font-size: 2.5rem;
+  }
+  .text-computacion {
+    top: 340px;
     font-size: 2.5rem;
   }
   .business-info {
     font-size: 1.3rem;
+  }
+  .container-images {
+    display: none;
   }
   .row-edit {
     display: block !important;
@@ -444,30 +495,47 @@ header {
 }
 /* Movil */
 @media only screen and (max-width: 480px) {
-  .home__title {
-    font-size: 1.5rem;
+  .logo-img {
+    width: 60px;
+    height: 60px;
+    top: 15px;
+    left: 16px;
   }
-  .home__text {
-    font-size: 2rem;
+  .logo-name {
+    font-size: 2.8rem;
+    top: 19px;
+    left: 90px;
+  }
+  .text-title {
+    top: 110px;
+    font-size: 1.3rem;
+  }
+  .text-libreria {
+    top: 160px;
+    font-size: 1.8rem;
+  }
+  .text-oficina, .text-computacion {
+    top: 205px;
+    font-size: 1.8rem;
+  }
+  .text-computacion {
+    top: 250px;
+    font-size: 1.8rem;
   }
   .business-info {
     font-size: 1rem;
   }
-  .contacto {
-    height: 600px;
-    display: grid;
-    grid-template-rows: 85px 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "title-location title-location title-location" "map map map" "map map map" "location location location" "tel tel tel" "mail mail mail";
-  }
-  .text-copyright {
-    font-size: 0.6rem;
+  .container-images {
+    display: none;
   }
   .row-edit {
     display: block !important;
   }
   .carousel-control-next, .carousel-control-prev {
     width: 10% !important;
+  }
+  .text-copyright {
+    font-size: 0.6rem;
   }
 }
 

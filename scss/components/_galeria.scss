@@ -13,6 +13,7 @@
     position: absolute;
     left: 0px;
     top: -90px;
+    font-size: 0;
 }
 
 .gallery-expand{
@@ -21,8 +22,13 @@
 
 .gallery-mini{
     border-radius: 10px;
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.04);
+    }
 }
 
 .del-border{
     border: none;
+    border-radius: 10px;
 }

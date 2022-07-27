@@ -5,13 +5,13 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: -moz-calc(100vh + 80px);
-    height: -webkit-calc(100vh + 80px);
-    height: calc(100vh + 80px);
+    height: -moz-calc(100vh + 140px);
+    height: -webkit-calc(100vh + 140px);
+    height: calc(100vh + 140px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -80px;
+    margin-top: -140px;
 }
 
 .text-home{
@@ -20,21 +20,41 @@
     width: 100%;
     text-align: center;
     color: white;
+    z-index: 0;
 }
 
 .text-title{
-    margin-bottom: 30px;
+    position: fixed;
+    top: 145px;
     font-size: 2.5rem;
+    /* Keyframes animate.css */
+    animation: fadeInDownBig;
+    animation-duration: 0.8s;
 }
 
 .text-libreria{
+    position: fixed;
+    top: 215px;
     font-size: 3rem;
+    /* Keyframes animate.css */
+    animation: fadeInDownBig;
+    animation-duration: 1.8s;
 }
 
 .text-oficina{
+    position: fixed;
+    top: 285px;
     font-size: 3rem;
+    /* Keyframes animate.css */
+    animation: fadeInDownBig;
+    animation-duration: 2.6s;
 }
 
 .text-computacion{
+    position: fixed;
+    top: 355px;
     font-size: 3rem;
+    /* Keyframes animate.css */
+    animation: fadeInDownBig;
+    animation-duration: 3.4s;
 }
