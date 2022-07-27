@@ -2,25 +2,17 @@
 
 #contacto{
     position: relative;
-    height: 500px;
-    display: grid;
-    grid-template-rows: 85px 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    'title-location title-location title-location title-location'
-    'map map map location'
-    'map map map tel'
-    'map map map mail';
+    height: 387px;
 }
 
 .target-contacto{
     position: absolute;
     left: 0px;
     top: -90px;
+    font-size: 0;
 }
 
 .title-location{
-    grid-area: title-location;
     padding: 30px;
     border: solid 2px black;
     font-family: $font-main;
@@ -31,30 +23,6 @@
 }
 
 .map{
-    grid-area: map;
-    height: 415px;
-}
-
-.location{
-    grid-area: location;
-    text-align: center;
-    align-self: end;
-    font-family: $font-main;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.tel{
-    grid-area: tel;
-    text-align: center;
-    align-self: center;
-    font-family: $font-main;
-    font-weight: bold;
-}
-
-.mail{
-    grid-area: mail;
-    text-align: center;
-    font-family: $font-main;
-    font-weight: bold;
+    width: 100%;
+    height: 300px;
 }

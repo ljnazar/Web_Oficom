@@ -2,10 +2,31 @@
 
 /* Tablet */
 @media only screen and (min-width: 830px) and (max-width: 992px){
-    .home__title{
+    .logo-img{
+        width: 60px;
+        height: 60px;
+        top: 15px;
+        left: 16px;
+    }
+    .logo-name{
+        font-size: 2.8rem;
+        top: 19px;
+        left: 90px;
+    }
+    .text-title{
+        top: 130px;
         font-size: 2rem;
     }
-    .home__text{
+    .text-libreria{
+        top: 200px;
+        font-size: 2.5rem;
+    }
+    .text-oficina,.text-computacion{
+        top: 270px;
+        font-size: 2.5rem;
+    }
+    .text-computacion{
+        top: 340px;
         font-size: 2.5rem;
     }
     .business-info{
@@ -21,14 +42,38 @@
 
 /* Mini Tablet */
 @media only screen and (min-width: 480px) and (max-width: 830px){
-    .home__title{
-        font-size: 1rem;
+    .logo-img{
+        width: 60px;
+        height: 60px;
+        top: 15px;
+        left: 16px;
     }
-    .home__text{
+    .logo-name{
+        font-size: 2.8rem;
+        top: 19px;
+        left: 90px;
+    }
+    .text-title{
+        top: 130px;
+        font-size: 2rem;
+    }
+    .text-libreria{
+        top: 200px;
+        font-size: 2.5rem;
+    }
+    .text-oficina,.text-computacion{
+        top: 270px;
+        font-size: 2.5rem;
+    }
+    .text-computacion{
+        top: 340px;
         font-size: 2.5rem;
     }
     .business-info{
         font-size: 1.3rem;
+    }
+    .container-images{
+        display: none;
     }
     .row-edit{
         display: block !important;
@@ -40,35 +85,46 @@
 
 /* Movil */
 @media only screen and (max-width: 480px) {
-    .home__title{
-        font-size: 1.5rem;
+    .logo-img{
+        width: 60px;
+        height: 60px;
+        top: 15px;
+        left: 16px;
     }
-    .home__text{
-        font-size: 2rem;
+    .logo-name{
+        font-size: 2.8rem;
+        top: 19px;
+        left: 90px;
+    }
+    .text-title{
+        top: 110px;
+        font-size: 1.3rem;
+    }
+    .text-libreria{
+        top: 160px;
+        font-size: 1.8rem;
+    }
+    .text-oficina,.text-computacion{
+        top: 205px;
+        font-size: 1.8rem;
+    }
+    .text-computacion{
+        top: 250px;
+        font-size: 1.8rem;
     }
     .business-info{
         font-size: 1rem;
     }
-    .contacto{
-        height: 600px;
-        display: grid;
-        grid-template-rows: 85px 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        'title-location title-location title-location'
-        'map map map'
-        'map map map'
-        'location location location'
-        'tel tel tel'
-        'mail mail mail';
-    }
-    .text-copyright{
-        font-size: 0.6rem;
+    .container-images{
+        display: none;
     }
     .row-edit{
         display: block !important;
     }
     .carousel-control-next, .carousel-control-prev{
         width: 10% !important;
+    }
+    .text-copyright{
+        font-size: 0.6rem;
     }
 }
