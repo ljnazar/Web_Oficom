@@ -3,11 +3,13 @@ Sitio Web de la empresa Oficom S.R.L
 
 Tecnologías utilizadas:    
 
-- Flexbox
-- BoxModeling
-- Bootstrap
+- HTML 5
+- CSS 3
+  - Flexbox
+  - BoxModeling
+  - Bootstrap
+  - Grid
+  - Animation
+  - Media Querys
 - SASS
-- Grid
 - SEO
-- Animaciones
-- Media Querys
