@@ -415,6 +415,48 @@ header {
     transform: rotate(359deg);
   }
 }
+.animation-brands-left {
+  -webkit-animation: movement-x-left 30s linear infinite;
+  -o-animation: movement-x-left 30s linear infinite;
+  -moz-animation: movement-x-left 30s linear infinite;
+  animation: movement-x-left 30s linear infinite;
+}
+
+@keyframes movement-x-left {
+  0% {
+    -webkit-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    transform: translateX(0vw);
+  }
+  100% {
+    -webkit-transform: translateX(-1402px);
+    -o-transform: translateX(-1402px);
+    -moz-transform: translateX(-1402px);
+    transform: translateX(-1402px);
+  }
+}
+.animation-brands-right {
+  -webkit-animation: movement-x-right 31s linear infinite;
+  -o-animation: movement-x-right 31s linear infinite;
+  -moz-animation: movement-x-right 31s linear infinite;
+  animation: movement-x-right 31s linear infinite;
+}
+
+@keyframes movement-x-right {
+  0% {
+    -webkit-transform: translateX(-1334px);
+    -o-transform: translateX(-1334px);
+    -moz-transform: translateX(-1334px);
+    transform: translateX(-1334px);
+  }
+  100% {
+    -webkit-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    transform: translateX(0vw);
+  }
+}
 /* Media Querys */
 /* Tablet */
 @media only screen and (min-width: 830px) and (max-width: 992px) {
