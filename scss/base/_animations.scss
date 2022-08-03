@@ -7,15 +7,15 @@
   animation: $property;
 }
 
-.rotate{
-  @include prefix-animation(rotation 16s infinite linear);
-}
-
 @mixin prefix-transform($property) {
   -webkit-transform: $property;
   -o-transform: $property;
   -moz-transform: $property;
   transform: $property;
+}
+
+.rotate{
+  @include prefix-animation(rotation 16s infinite linear);
 }
 
 @keyframes rotation{
@@ -24,5 +24,31 @@
   }
   to {
     @include prefix-transform(rotate(359deg));
+  }
+}
+
+.animation-brands-left{
+  @include prefix-animation(movement-x-left 30s linear infinite);
+}
+
+@keyframes movement-x-left{
+  0% {
+    @include prefix-transform(translateX(0vw));
+  }
+  100% {
+    @include prefix-transform(translateX(-1402px));
+  }
+}
+
+.animation-brands-right{
+  @include prefix-animation(movement-x-right 31s linear infinite);
+}
+
+@keyframes movement-x-right{
+  0% {
+    @include prefix-transform(translateX(-1334px));
+  }
+  100% {
+    @include prefix-transform(translateX(0vw));
   }
 }
