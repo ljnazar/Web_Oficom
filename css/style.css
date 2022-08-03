@@ -430,17 +430,17 @@ header {
     transform: translateX(0vw);
   }
   100% {
-    -webkit-transform: translateX(-1402px);
-    -o-transform: translateX(-1402px);
-    -moz-transform: translateX(-1402px);
-    transform: translateX(-1402px);
+    -webkit-transform: translateX(-1386px);
+    -o-transform: translateX(-1386px);
+    -moz-transform: translateX(-1386px);
+    transform: translateX(-1386px);
   }
 }
 .animation-brands-right {
-  -webkit-animation: movement-x-right 31s linear infinite;
-  -o-animation: movement-x-right 31s linear infinite;
-  -moz-animation: movement-x-right 31s linear infinite;
-  animation: movement-x-right 31s linear infinite;
+  -webkit-animation: movement-x-right 30s linear infinite;
+  -o-animation: movement-x-right 30s linear infinite;
+  -moz-animation: movement-x-right 30s linear infinite;
+  animation: movement-x-right 30s linear infinite;
 }
 
 @keyframes movement-x-right {
