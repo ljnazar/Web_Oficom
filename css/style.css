@@ -39,8 +39,6 @@ header {
 }
 
 .logo-img {
-  width: 65px;
-  height: 65px;
   position: absolute;
   top: 12px;
   left: 20px;
@@ -58,7 +56,7 @@ header {
 
 /* Style for home section */
 .home {
-  background-image: url(../img/home.jpg);
+  background-image: url(../img/home.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -191,8 +189,8 @@ header {
 
 .star-resize {
   margin-top: -30px;
-  margin-right: -0.2em;
-  height: 14px;
+  margin-right: -0.1em;
+  height: 12px;
 }
 
 .card-comment {
