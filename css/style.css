@@ -319,6 +319,28 @@ header {
   border-radius: 10px;
 }
 
+.gallery-react-border{
+  background-color: black !important;
+  opacity: 0.4 !important;
+  width: 8% !important;
+  margin: 15px;
+}
+
+.gallery-react-border:hover{
+  background-color: white !important;
+  transition: none;
+  opacity: 0.3 !important;
+}
+
+.gallery-react-border:hover .galery-icon-carousel{
+  filter: invert(100%) !important;
+}
+
+.galery-icon-carousel{
+  width: 4rem  !important;
+  height: 4rem  !important;
+}
+
 /* Style for contacto section */
 #contacto {
   position: relative;
@@ -491,7 +513,7 @@ header {
   .row-edit {
     display: block !important;
   }
-  .carousel-control-next, .carousel-control-prev {
+  .row .carousel-control-next, .row .carousel-control-prev {
     width: 50% !important;
   }
 }
@@ -533,7 +555,7 @@ header {
   .row-edit {
     display: block !important;
   }
-  .carousel-control-next, .carousel-control-prev {
+  .row .carousel-control-next, .row .carousel-control-prev {
     width: 30% !important;
   }
 }
@@ -575,7 +597,7 @@ header {
   .row-edit {
     display: block !important;
   }
-  .carousel-control-next, .carousel-control-prev {
+  .row .carousel-control-next, .row .carousel-control-prev {
     width: 10% !important;
   }
   .text-copyright {

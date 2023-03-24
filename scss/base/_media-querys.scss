@@ -35,7 +35,7 @@
     .row-edit{
         display: block !important;
     }
-    .carousel-control-next, .carousel-control-prev{
+    .row .carousel-control-next, .row .carousel-control-prev{
         width: 50% !important;
     }
 }
@@ -78,7 +78,7 @@
     .row-edit{
         display: block !important;
     }
-    .carousel-control-next, .carousel-control-prev{
+    .row .carousel-control-next, .row .carousel-control-prev{
         width: 30% !important;
     }
 }
@@ -121,7 +121,7 @@
     .row-edit{
         display: block !important;
     }
-    .carousel-control-next, .carousel-control-prev{
+    .row .carousel-control-next, .row .carousel-control-prev{
         width: 10% !important;
     }
     .text-copyright{
